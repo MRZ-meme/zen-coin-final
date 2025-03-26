@@ -1,3 +1,4 @@
+
 // page.js
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <img
           src="/zen-coin-logo.png"
           alt="Zen Coin Logo"
-          className="mx-auto h-36 w-36 md:h-44 md:w-44 rounded-full border border-gray-300 shadow-md"
+          className="mx-auto h-32 w-32 md:h-36 md:w-36 rounded-full border border-gray-300 shadow-md"
         />
       </header>
 
