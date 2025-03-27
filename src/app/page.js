@@ -3,11 +3,8 @@ export default function Home() {
   return (
     <div
       style={{
-        backgroundImage: "url('/zen-garden-bg.png')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundColor: '#f0f5f2', // fallback color
+        background: "linear-gradient(to bottom right, #d1fae5, #fefce8)",
+        minHeight: "100vh",
       }}
       className="space-y-6 min-h-screen"
     >
