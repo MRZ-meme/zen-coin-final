@@ -1,3 +1,4 @@
+import './globals.css';
 export const metadata = {
   title: 'Zen Coin',
   description: 'The meme token of balance, peace, and pure degeneracy.',
