@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div
       style={{
-        background: "linear-gradient(135deg, #e0f7fa 0%, #ede7f6 100%)",
+        background: "linear-gradient(135deg, #e6f2e6 0%, #f5f5f5 100%)",
         minHeight: "100vh",
         fontFamily: 'Inter, sans-serif'
       }}
@@ -13,11 +13,11 @@ export default function Home() {
         <h1 className="text-6xl font-extrabold flex justify-center items-center text-green-900">
           <span className="text-7xl mr-3">🧘‍♂️</span> Zen Coin
         </h1>
-        <nav className="flex justify-center space-x-8 mt-6">
-          <a href="#" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">Home</a>
-          <a href="#manifesto" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">Manifesto</a>
-          <a href="https://pancakeswap.finance" target="_blank" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">Buy</a>
-          <a href="#about" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">About</a>
+        <nav className="flex justify-center space-x-6 mt-4">
+          <a href="#" className="text-md px-4 py-2 rounded-full bg-white border border-green-300 text-green-900 hover:bg-green-100 shadow transition">Home</a>
+          <a href="#manifesto" className="text-md px-4 py-2 rounded-full bg-white border border-green-300 text-green-900 hover:bg-green-100 shadow transition">Manifesto</a>
+          <a href="https://pancakeswap.finance" target="_blank" className="text-md px-4 py-2 rounded-full bg-white border border-green-300 text-green-900 hover:bg-green-100 shadow transition">Buy</a>
+          <a href="#about" className="text-md px-4 py-2 rounded-full bg-white border border-green-300 text-green-900 hover:bg-green-100 shadow transition">About</a>
         </nav>
       </header>
 
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       <section id="manifesto" className="max-w-4xl mx-auto bg-white bg-opacity-90 p-10 rounded-2xl shadow-2xl mb-10">
-        <h3 className="text-4xl font-bold mb-4 text-green-900">🧘‍♂️ ZEN COIN: The Meme Manifesto</h3>
+        <h3 className="text-4xl font-bold mb-4 text-green-900 border-b pb-2">🧘‍♂️ ZEN COIN: The Meme Manifesto</h3>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
           In a world full of chaos, rugs, and dog coins... a silent force awakens on the Binance Smart Chain. It doesn’t bark. It doesn’t fight. It meditates.<br />
           ZEN COIN is the first meme coin born from inner peace — not hype.
@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       <section id="slogans" className="max-w-4xl mx-auto bg-white bg-opacity-90 p-10 rounded-2xl shadow-2xl mb-16">
-        <h3 className="text-3xl font-semibold mb-4 text-green-800">💬 Sample Meme Slogans</h3>
+        <h3 className="text-3xl font-semibold mb-4 text-green-800 border-b pb-2">💬 Sample Meme Slogans</h3>
         <ul className="list-disc list-inside text-md text-gray-700 space-y-2">
           <li>“Buy the calm before the storm.”</li>
           <li>“Not financial advice, just spiritual alignment.”</li>
@@ -73,3 +73,4 @@ export default function Home() {
     </div>
   );
 }
+
