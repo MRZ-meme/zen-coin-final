@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply text-gray-900 bg-gradient-to-br from-green-50 to-purple-100;
+  @apply bg-gradient-to-br from-green-50 to-purple-100 text-gray-900;
+  font-family: 'Helvetica Neue', sans-serif;
 }
