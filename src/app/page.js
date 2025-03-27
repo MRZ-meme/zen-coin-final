@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div
       style={{
-        background: "linear-gradient(135deg, #d3f8e2 0%, #e4c1f9 100%)",
+        background: "linear-gradient(135deg, #e0f7fa 0%, #ede7f6 100%)",
         minHeight: "100vh",
         fontFamily: 'Inter, sans-serif'
       }}
@@ -14,15 +14,15 @@ export default function Home() {
           <span className="text-7xl mr-3">🧘‍♂️</span> Zen Coin
         </h1>
         <nav className="flex justify-center space-x-8 mt-6">
-          <a href="#" className="text-lg px-4 py-2 rounded-lg bg-white bg-opacity-70 hover:bg-green-100 text-green-800 transition font-semibold">Home</a>
-          <a href="#manifesto" className="text-lg px-4 py-2 rounded-lg bg-white bg-opacity-70 hover:bg-green-100 text-green-800 transition font-semibold">Manifesto</a>
-          <a href="https://pancakeswap.finance" target="_blank" className="text-lg px-4 py-2 rounded-lg bg-white bg-opacity-70 hover:bg-green-100 text-green-800 transition font-semibold">Buy</a>
-          <a href="#about" className="text-lg px-4 py-2 rounded-lg bg-white bg-opacity-70 hover:bg-green-100 text-green-800 transition font-semibold">About</a>
+          <a href="#" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">Home</a>
+          <a href="#manifesto" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">Manifesto</a>
+          <a href="https://pancakeswap.finance" target="_blank" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">Buy</a>
+          <a href="#about" className="text-lg px-5 py-2 rounded-full bg-green-100 hover:bg-green-200 text-green-900 shadow-md transition font-semibold">About</a>
         </nav>
       </header>
 
       <section className="max-w-4xl mx-auto bg-white bg-opacity-90 p-10 rounded-2xl shadow-2xl mb-10">
-        <h2 className="text-5xl font-extrabold mb-6 text-gray-900">🚀 ZEN COIN is Coming</h2>
+        <h2 className="text-5xl font-extrabold mb-6 text-green-900">🚀 ZEN COIN is Coming</h2>
         <p className="text-xl leading-relaxed text-gray-700 mb-6">Meme meets meditation. A token for true believers in calm, chaos, and crypto. ZEN COIN is brewing silently on BNB Chain.</p>
         <p className="text-md text-gray-600">
           <strong>Contract Address:</strong><br />
@@ -39,7 +39,7 @@ export default function Home() {
           ZEN COIN is the first meme coin born from inner peace — not hype.
         </p>
 
-        <h4 className="font-semibold text-2xl mt-8 mb-3 text-gray-800">🌕 What is ZEN COIN?</h4>
+        <h4 className="font-semibold text-2xl mt-8 mb-3 text-green-800">🌕 What is ZEN COIN?</h4>
         <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
           <li>Stupid cheap</li>
           <li>Wildly memeable</li>
@@ -47,7 +47,7 @@ export default function Home() {
           <li>Forever vibing 🌀</li>
         </ul>
 
-        <h4 className="font-semibold text-2xl mt-8 mb-3 text-gray-800">🔥 Why Buy ZEN?</h4>
+        <h4 className="font-semibold text-2xl mt-8 mb-3 text-green-800">🔥 Why Buy ZEN?</h4>
         <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
           <li>Massive supply — everyone gets billions</li>
           <li>Locked liquidity = trust in ZEN 🧘</li>
