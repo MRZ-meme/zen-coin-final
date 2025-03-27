@@ -1,9 +1,8 @@
-
 // page.js
 export default function Home() {
   return (
     <div
-      style={{ backgroundImage: "url('/zen-garden-bg.png')" }}
+      style={{ backgroundColor: '#f0f5f2' }} // fallback soft green background
       className="space-y-6 bg-cover bg-center min-h-screen"
     >
       <header className="text-center py-4">
@@ -13,11 +12,6 @@ export default function Home() {
           <a href="https://pancakeswap.finance" target="_blank" className="hover:text-black">Buy</a>
           <a href="#about" className="hover:text-black">About</a>
         </nav>
-        <img
-          src="/zen-coin-logo.png"
-          alt="Zen Coin Logo"
-          className="mx-auto h-32 w-32 md:h-36 md:w-36 rounded-full border border-gray-300 shadow-md"
-        />
       </header>
 
       <section className="text-center bg-white bg-opacity-80 mx-4 p-4 rounded-xl shadow-lg">
