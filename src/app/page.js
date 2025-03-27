@@ -2,8 +2,14 @@
 export default function Home() {
   return (
     <div
-      style={{ backgroundColor: '#f0f5f2' }} // fallback soft green background
-      className="space-y-6 bg-cover bg-center min-h-screen"
+      style={{
+        backgroundImage: "url('/zen-garden-bg.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundColor: '#f0f5f2', // fallback color
+      }}
+      className="space-y-6 min-h-screen"
     >
       <header className="text-center py-4">
         <nav className="flex justify-center space-x-6 mb-4 text-sm font-medium text-gray-600">
